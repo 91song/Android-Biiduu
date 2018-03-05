@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1C1C1C"
+        android:gravity="center"
+        android:text="@string/coin_index_coin_index"
+        android:textColor="#F7F7F7"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#111111" />
+
+    <cn.biiduu.biiduu.widget.MPtrFrameLayout
+        android:id="@+id/pfl_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <cn.biiduu.biiduu.widget.BetterRecyclerView
+                android:id="@+id/rv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" />
+
+            <FrameLayout
+                android:id="@+id/fl_coin_index_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:background="#333333"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/coin_index_coin_type"
+                        android:textColor="#F7F7F7"
+                        android:textSize="15sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <cn.biiduu.biiduu.widget.ObservableScrollView
+                            android:id="@+id/osv_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:overScrollMode="never"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#1C1C1C"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/coin_index_price"
+                                    android:textColor="#F7F7F7"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="150dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#1C1C1C"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/coin_index_volume"
+                                    android:textColor="#F7F7F7"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#1C1C1C"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/coin_index_quote_change"
+                                    android:textColor="#F7F7F7"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#1C1C1C"
+                                    android:ellipsize="end"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/coin_index_price_trend"
+                                    android:textColor="#F7F7F7" />
+                            </LinearLayout>
+                        </cn.biiduu.biiduu.widget.ObservableScrollView>
+
+                        <ImageView
+                            android:id="@+id/iv_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right"
+                            android:background="@drawable/shape_black"
+                            android:contentDescription="@null"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="5dp"
+                            android:scaleType="center"
+                            android:src="@drawable/bizhi_arrow"
+                            tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </cn.biiduu.biiduu.widget.MPtrFrameLayout>
+</LinearLayout>

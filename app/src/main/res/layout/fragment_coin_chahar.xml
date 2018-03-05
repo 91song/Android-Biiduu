@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.marno.easystatelibrary.EasyStatusView
+        android:id="@+id/esv_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:esv_empty="@layout/layout_status_empty"
+        app:esv_loading="@layout/layout_status_loading"
+        app:esv_noNet="@layout/layout_status_no_net">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_coin_chahar" />
+    </com.marno.easystatelibrary.EasyStatusView>
+</LinearLayout>

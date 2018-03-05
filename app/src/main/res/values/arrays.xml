@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="square_header_text">
+        <item>别人恐惧时我贪婪，别人贪婪时我恐惧</item>
+        <item>只做完全明白的事</item>
+        <item>投资必须是理性的</item>
+        <item>永远不要孤注一掷</item>
+        <item>市场永远都是对的，身在市场才能找到答案</item>
+        <item>每一条K线都是投资者情绪的宣泄</item>
+        <item>钱从活跃的投资者流向有耐心的投资者</item>
+        <item>成交量是动力，价格走势是方向</item>
+        <item>价值评估，既是科学，又是艺术</item>
+        <item>不能承受下跌50%的人就不应该投资</item>
+        <item>抓住投资良机，就等于成功了一半</item>
+    </string-array>
+</resources>

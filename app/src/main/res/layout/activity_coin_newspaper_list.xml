@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1C1C1C"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/nav_button_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/coin_newspaper_coin_newspaper"
+            android:textColor="#F7F7F7"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <com.marno.easystatelibrary.EasyStatusView
+        android:id="@+id/esv_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:esv_empty="@layout/layout_status_empty"
+        app:esv_loading="@layout/layout_status_loading"
+        app:esv_noNet="@layout/layout_status_no_net">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bibao_img_bg"
+            android:clipChildren="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_period"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#DCDCDC"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded"
+                tools:text="币报第五期" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:background="#DCDCDC"
+                tools:ignore="RtlHardcoded" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_coin_newspaper"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:clipChildren="false" />
+
+            <TextView
+                android:id="@+id/tv_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#DCDCDC"
+                android:textSize="13sp"
+                tools:text="2/12" />
+        </LinearLayout>
+    </com.marno.easystatelibrary.EasyStatusView>
+</LinearLayout>

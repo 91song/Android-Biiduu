@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical">
+
+    <cn.biiduu.biiduu.widget.MPtrFrameLayout
+        android:id="@+id/pfl_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.biiduu.biiduu.widget.BetterRecyclerView
+            android:id="@+id/rv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+    </cn.biiduu.biiduu.widget.MPtrFrameLayout>
+</LinearLayout>

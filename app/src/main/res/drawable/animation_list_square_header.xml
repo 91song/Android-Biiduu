@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/pr_2_000000"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000002"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000003"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000004"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000006"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000007"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000008"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000009"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000010"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000011"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000012"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000013"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000014"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000015"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000016"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000017"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000018"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000019"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000020"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000021"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000022"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000023"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000024"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000025"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000026"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000027"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000028"
+        android:duration="1" />
+    <item
+        android:drawable="@drawable/pr_2_000030"
+        android:duration="1" />
+</animation-list>

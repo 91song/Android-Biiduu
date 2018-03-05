@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <cn.bingoogolapple.bgabanner.BGABanner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bga_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clipChildren="false"
+        android:scaleType="centerCrop"
+        app:banner_indicatorGravity="bottom"
+        app:banner_pageChangeDuration="500"
+        app:banner_placeholderDrawable="@drawable/img_def_banner_1"
+        app:banner_pointAutoPlayAble="true"
+        app:banner_pointAutoPlayInterval="4000"
+        app:banner_pointContainerBackground="@android:color/transparent"
+        app:banner_pointDrawable="@drawable/selector_banner_indicator"
+        app:banner_pointLeftRightMargin="2dp"
+        app:banner_pointTopBottomMargin="3dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#111111" />
+
+    <LinearLayout
+        android:id="@+id/ll_coin_newspaper"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/nav_button_next"
+            android:text="@string/news_coin_newspaper"
+            android:textColor="#F7F7F7"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_coin_newspaper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_def_banner_1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shape_coin_newspaper_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/shape_circle_2"
+            android:drawablePadding="3dp"
+            android:gravity="center_vertical"
+            android:text="@string/news_hot"
+            android:textColor="#DCDCDC"
+            android:textSize="13sp"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_period"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/shape_line"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/shape_line"
+                android:textColor="#DCDCDC"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded"
+                tools:text="币报第六期" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/bibao_img_1"
+                android:drawableRight="@drawable/bibao_img_2"
+                android:gravity="center"
+                android:maxEms="14"
+                android:textColor="#DCDCDC"
+                android:textSize="16sp"
+                tools:ignore="RtlHardcoded"
+                tools:text="更多国家正推出数字货币区块链技术愈发受欢迎" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#111111" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1C1C1C"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="@string/news_coin_chahar"
+        android:textColor="#F7F7F7"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <cn.biiduu.biiduu.widget.FixedViewPager
+        android:id="@+id/fvp_coin_chahar_time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:clipChildren="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxEms="1"
+            android:text="@string/news_more"
+            android:textColor="#999999"
+            android:textSize="9sp"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded,SmallSp" />
+
+        <cn.biiduu.biiduu.widget.HeaderViewPager
+            android:id="@+id/vp_coin_chahar"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:clipChildren="false" />
+    </FrameLayout>
+</LinearLayout>

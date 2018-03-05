@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="divider_1">1dp</dimen>
+    <dimen name="divider_10">10dp</dimen>
+</resources>

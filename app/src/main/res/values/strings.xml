@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">币都</string>
+
+    <string name="load_more_load_end">暂无更多节目，请期待~</string>
+
+    <string name="article_details_statement">版权及免责声明：“币都”所发布的文章作品，仅供数字货币爱好者阅读参考，并不代表“币都”的立场和建议，币市有风险，投资需谨慎。部分文章来源互联网，如该转载不符合您的意愿或侵犯您的版权，请您与我们联系，我们会尽快删除。</string>
+    <string name="article_details_tips">服务与数字货币用户</string>
+    <string name="article_details_recommend_read">推荐阅读</string>
+
+    <string name="coin_newspaper_coin_newspaper">币报</string>
+
+    <string name="coin_chahar_details">详情</string>
+    <string name="coin_chahar_top">你在互联网公司？</string>
+
+    <string name="main_home_page">首页</string>
+    <string name="main_coin_level">币级</string>
+    <string name="main_coin_index">币指</string>
+    <string name="main_find">发现</string>
+    <string name="main_news">资讯</string>
+    <string name="main_coin_ting">币听</string>
+
+    <string name="coin_index_price_trend">7天价格趋势</string>
+    <string name="coin_index_quote_change">24H涨跌幅</string>
+    <string name="coin_index_volume">24H成交量</string>
+    <string name="coin_index_price">当前价格</string>
+    <string name="coin_index_coin_type">币种</string>
+    <string name="coin_index_coin_index">币指</string>
+
+    <string name="share_weixin">微信</string>
+    <string name="share_sina">新浪微博</string>
+    <string name="share_friend_circle">朋友圈</string>
+    <string name="share_qq">QQ好友</string>
+    <string name="share_qzone">QQ空间</string>
+    <string name="share_cancel">取消</string>
+
+    <string name="coin_index_sample">币指采集样本</string>
+    <string name="coin_index_day_line">日线</string>
+    <string name="coin_index_minute_hour">分时</string>
+    <string name="coin_index_index_trend">指数走势图</string>
+
+    <string name="coin_level_details_score">最新评分</string>
+    <string name="coin_level_details_status">最新状态</string>
+    <string name="coin_level_coin_level">币级</string>
+    <string name="coin_level_name">名称</string>
+    <string name="coin_level_score">评级分数</string>
+    <string name="coin_level_details_summary">本期简评</string>
+    <string name="coin_level_details_introduction">团队介绍</string>
+    <string name="coin_level_good">评分优秀</string>
+    <string name="coin_level_fast">上升最快</string>
+    <string name="coin_level_bad">评分不佳</string>
+    <string name="coin_level_investment_rating">投资评级</string>
+    <string name="coin_level_quote_change">涨跌幅</string>
+    <string name="coin_level_status">状态</string>
+    <string name="coin_level_investment_score">评级分数</string>
+
+    <string name="news_news">资讯</string>
+    <string name="news_coin_newspaper">币报</string>
+    <string name="news_hot">本期热点</string>
+    <string name="news_coin_chahar">币察</string>
+    <string name="news_more">更多</string>
+
+    <string name="status_empty">暂无数据</string>
+    <string name="status_network_error">网络连接失败</string>
+    <string name="status_loading">正在加载&#8230;</string>
+
+    <string name="coin_ting_details_summary">内容简介</string>
+    <string name="coin_ting_details_play_count">播放量: %s</string>
+    <string name="coin_ting_details_start_time">00:00</string>
+    <string name="coin_ting_details_stop_time">00:00</string>
+    <string name="coin_ting_details_feedback">意见反馈</string>
+
+    <string name="coin_ting_professional_ting">专业听</string>
+    <string name="coin_ting_professional_ting_description">【币圈深度玩家】用最简单的语言，由浅入深带你了解更多区块链相关知识！</string>
+    <string name="coin_ting_interesting_ting">兴趣听</string>
+    <string name="coin_ting_interesting_ting_description">即将开放，敬请期待~</string>
+    <string name="coin_ting_total_play_count">总播放: %s</string>
+    <string name="coin_ting_program_count">节目: %s</string>
+    <string name="coin_ting_update_time">更新: %s</string>
+
+    <string name="feedback_opinion_feedback">意见反馈</string>
+    <string name="feedback_hint_feedback">提点意见，让我们做更好~</string>
+    <string name="feedback_commit_feedback">提交反馈</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_weixin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_weixin"
+                android:gravity="center"
+                android:text="@string/share_weixin"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                tools:ignore="NestedWeights,SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_sina_weibo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_xinlang"
+                android:gravity="center"
+                android:text="@string/share_sina"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_friend_circle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_pengyou"
+                android:gravity="center"
+                android:text="@string/share_friend_circle"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_qq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_qq"
+                android:gravity="center"
+                android:text="@string/share_qq"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                tools:ignore="NestedWeights,SmallSp" />
+
+            <TextView
+                android:id="@+id/tv_qzone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_space"
+                android:gravity="center"
+                android:text="@string/share_qzone"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_pengyou"
+                android:gravity="center"
+                android:text="@string/share_friend_circle"
+                android:textColor="#333333"
+                android:textSize="11sp"
+                android:visibility="invisible"
+                tools:ignore="SmallSp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F7F7F7" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/share_cancel"
+        android:textColor="#999999"
+        android:textSize="15sp" />
+</LinearLayout>

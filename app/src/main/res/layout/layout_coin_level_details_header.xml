@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginTop="3dp"
+            android:background="#578DDF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/coin_level_details_summary"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_simple_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:padding="15dp"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        tools:text="市场持续回升，涨势稳定，价格喜人，可观望或轻仓静待下一步走势" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginTop="3dp"
+            android:background="#578DDF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/coin_level_details_introduction"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_team_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:lineSpacingExtra="10dp"
+        android:padding="15dp"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        tools:text="用数字艺术雕刻生活的超强科技团队我们一直致力于打造一个自由、开放、平等、公平、自然、平衡的互联网全链生态，实现社会化网络与现实社会完美结合的企业愿景。为实现分享互联网价值、共享新生态价值的目标，我们组建了超百人的综合团队。他们毕业于斯坦福大学、加州大学、清华大学、同济大学、香港城市大学等国内外一流院校，覆盖率56%；他们拥有计算机及网络学士、信息学硕士、经济学博士、管理学双硕士等专业学历，覆盖率89%；他们来自BitCoin、BitGo、国家电网、盛大网络、腾讯科技" />
+
+    <LinearLayout
+        android:id="@+id/ll_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:visibility="gone"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+        tools:visibility="visible">
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginTop="3dp"
+            android:background="#578DDF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="相关新闻"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

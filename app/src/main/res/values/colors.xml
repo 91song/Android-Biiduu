@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2A4E7E</color>
+
+    <color name="bottom_bar_checked_color">#578DDF</color>
+    <color name="bottom_bar_normal_color">#999999</color>
+    <color name="trend_normal_color">#F7F7F7</color>
+    <color name="trend_checked_color">#578DDF</color>
+    <color name="coin_chahar_pressed_color">#2D2D2D</color>
+    <color name="coin_chahar_normal_color">#1C1C1C</color>
+    <color name="find_normal_color">#DCDCDC</color>
+    <color name="find_checked_color">#FFFFFF</color>
+    <color name="coin_ting_normal_color">#DCDCDC</color>
+    <color name="coin_ting_checked_color">#578DDF</color>
+
+    <color name="item_pressed_color">#F2F2F2</color>
+    <color name="item_normal_color">#FFFFFF</color>
+
+    <color name="ripple_mask_color">#1C1C1C</color>
+    <color name="ripple_ripple_color">#333333</color>
+</resources>

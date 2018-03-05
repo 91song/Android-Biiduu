@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.biiduu.biiduu.module.main.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C1C1C"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_home"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/main_home_page"
+            android:textColor="@drawable/selector_bottom_bar"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <RadioButton
+            android:id="@+id/rb_coin_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_biji"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/main_coin_level"
+            android:textColor="@drawable/selector_bottom_bar"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <RadioButton
+            android:id="@+id/rb_coin_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_bizhi"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/main_coin_index"
+            android:textColor="@drawable/selector_bottom_bar"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_bottom_find"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/main_find"
+            android:textColor="@drawable/selector_bottom_bar"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </RadioGroup>
+</LinearLayout>
